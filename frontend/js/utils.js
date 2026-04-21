@@ -1,4 +1,4 @@
-const API_URL = '/api';
+const API_URL = 'https://edupro1-1.onrender.com/api';
 
 const fetchAPI = async (endpoint, options = {}) => {
   const token = localStorage.getItem('token');
